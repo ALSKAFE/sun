@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مصنع شمس الأمل | للرخام والجرانيت والبلاط</title>
+    
+    <!-- أيقونة الموقع (Favicon) - نسخة مضبوطة -->
+    <link rel="icon" type="image/x-icon" href="./Favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./Favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#030303">
+    <meta name="theme-color" content="#030303">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- الهيدر -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="مصنع شمس الأمل" class="logo-img">
+                <div class="logo-text">
+                    <h1>مصنع شمس الأمل</h1>
+                    <p>للرخام والجرانيت والبلاط</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#marble">الرخام</a></li>
+                    <li><a href="#granite">الجرانيت</a></li>
+                    <li><a href="#stone">الحجر</a></li>
+                    <li><a href="#tiles">البلاط</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">تواصل</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" style="text-align: right; margin-right: 0; margin-left: auto;">
+                <h1 class="hero-title" style="font-size: 3.2rem;">مصنع <span>شمس الأمل</span></h1>
+                <h2 class="hero-subtitle">للرخام والجرانيت</h2>
+                <p class="hero-text">التميز في صناعة الرخام والحجر</p>
+                <p class="hero-quote">رفاهية الطبيعة بين يديك</p>
+                <p class="hero-description">مصنع شمس الأمل يقدم لكم أرقى أنواع الرخام، الجرانيت، البلاط والحجر بلمسة فنية تعكس الفخامة والأصالة في كل زاوية من مساحتكم.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-outline">من نحن</a>
+                    <a href="#marble" class="btn btn-primary">تصفح المنتجات</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خدمة تركيب المطابخ -->
+    <section class="kitchen-service">
+        <div class="container">
+            <div class="kitchen-banner">
+                <div class="banner-icon">
+                    <i class="fas fa-kitchen-set"></i>
+                </div>
+                <div class="banner-content">
+                    <h3>خدمة تركيب المطابخ</h3>
+                    <p>بأعلى معايير الجودة والاحترافية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- صفحة الرخام -->
+    <section id="marble" class="products-section">
+        <div class="container">
+            <h2 class="section-title">الرخام الفاخر</h2>
+            <p class="section-subtitle">أجود أنواع الرخام المستورد والمحلي لأسطح تدوم طويلاً وتضفي فخامة لا مثيل لها</p>
+            
+            <div class="products-grid" id="marble-container"></div>
+        </div>
+    </section>
+
+    <!-- صفحة الجرانيت -->
+    <section id="granite" class="products-section">
+        <div class="container">
+            <h2 class="section-title">الجرانيت الطبيعي</h2>
+            <p class="section-subtitle">أقسى أنواع الصخور الطبيعية بلمسات جمالية خلابة</p>
+            
+            <div class="products-grid" id="granite-container"></div>
+        </div>
+    </section>
+
+    <!-- صفحة الحجر -->
+    <section id="stone" class="products-section">
+        <div class="container">
+            <h2 class="section-title">الحجر الطبيعي والصناعي</h2>
+            <p class="section-subtitle">لواجهات خارجية وداخلية تعكس الأصالة والجمال بألوان وتشكيلات متعددة</p>
+            
+            <div class="products-grid" id="stone-container"></div>
+        </div>
+    </section>
+
+    <!-- صفحة البلاط -->
+    <section id="tiles" class="products-section">
+        <div class="container">
+            <h2 class="section-title">البلاط العصري</h2>
+            <p class="section-subtitle">تشكيلة واسعة من البلاط العصري والكلاسيكي</p>
+            
+            <div class="warranty-badge">
+                <i class="fas fa-shield-alt"></i>
+                <span>كفالة 25 سنة على جميع أنواع البلاط</span>
+            </div>
+            
+            <div class="products-grid" id="tiles-container"></div>
+        </div>
+    </section>
+
+    <!-- صفحة من نحن -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>مصنع شمس الأمل</h3>
+                    <p>مصنع شمس الأمل للرخام والجرانيت والبلاط والحجر الطبيعي والحجر الصناعي وكسارة البصمة. لدينا خدمة تركيب المطابخ بأعلى جودة. شركتنا هي شركة مملوكة فردياً. نسعى لتقديم أفضل المواد وأحدث التصاميم.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-gem"></i>
+                        <span>أجود أنواع الرخام والجرانيت المستورد والمحلي</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-border-all"></i>
+                        <span>تشكيلة واسعة من البلاط العصري والكلاسيكي</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-mountain"></i>
+                        <span>حجر طبيعي وصناعي للواجهات والديكورات</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tree"></i>
+                        <span>تصميم وتجهيز الحدائق بأرقى المستويات</span>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tools"></i>
+                        <span>خدمة تركيب احترافية للمطابخ والرخام</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- صفحة تواصل معنا -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-subtitle">نحن هنا للإجابة على استفساراتكم وتلبية طلباتكم. لا تترددوا في التواصل معنا.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>العنوان</h4>
+                            <a href="https://maps.google.com/?q=31.859104%2C36.016659" target="_blank">تفضل بزيارة مصنعنا لمعاينة المنتجات على أرض الواقع</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>الموقع الإلكتروني</h4>
+                            <p>www.shams-alamal.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p>osamaalskafe2@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <h3>تواصل معنا عبر منصاتنا</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/shamsalamalfactory/" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/962796366816" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/shamsalamalfactory/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; <span id="year"></span> مصنع شمس الأمل</p>
+        </div>
+    </footer>
+
+    <!-- نافذة منبثقة لتفاصيل المنتج -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
